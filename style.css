@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div-0 {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #bbbbbb;
+}
+
+.div-1 {
+    width: 375px;
+    height: 510px;
+
+    background: #ececec;
+}
+
+header {
+    width: 375px;
+    height: 50px;
+
+    background: #1B83E2;
+}
+
+.header-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+
+    padding-top: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+main {
+    width: 375px;
+    text-align: center;
+
+    padding: 24px;
+}
+
+.subTitle {
+    font-size: 16px;
+    font-weight: 600;
+
+    color: #00000095;
+    text-align: start;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+
+    border-radius: 6px;
+    background: #fff;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border: solid 0.1px #0000004a;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+
+    border-radius: 6px;
+    background: #fff;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: solid 0.1px #0000004a;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    outline: none;
+    appearance: none;
+}
+
+.vector {
+    padding-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    height: 50px;
+
+    border-radius: 50px;
+    background: #1B83E2;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.img-static-one {
+    position: relative;
+    bottom: 391px;
+    left: 164px;
+    width: 40px;
+    padding: 4px;
+    border-left: solid 0.2px #0000004a;
+}
+
+.img-static-two {
+    position: relative;
+    bottom: 312px;
+    left: 120px;
+    width: 40px;
+    padding: 4px;
+    border-left: solid 0.2px #0000004a;
+}

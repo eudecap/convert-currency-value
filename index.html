@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Currency Converter</title>
+</head>
+
+<body>
+    <div class="div-0">
+        <div class="div-1">
+            <header>
+                <p class="header-title">Currency Converter</p>
+            </header>
+            <main>
+                <p class="subTitle">converter de </p>
+                <select id="converterDe">
+                    <option value="BRL">BRL / Real brasileiro</option>
+                    <option value="US$">US$ / Dólar americano</option>
+                    <option value="€">€ EURO / Euro</option>
+                </select>
+
+                <p class="subTitle">converter para</p>
+                <select id="converterPara">
+                    <option value="US$">US$ / Dólar americano</option>
+                    <option value="€">€ EURO / Euro</option>
+                    <option value="BRL">BRL / Real brasileiro</option>
+                </select>
+
+                <p class="subTitle">VALOR</p>
+                <input id="myValue" type="number" placeholder="R$ 0,00">
+
+                <img class="vector" src="./assets/Vector.png" alt="icon">
+                <input id="inputValue" type="number" placeholder="US$ 0,00">
+
+                <button id="convertButton">converter</button>
+
+                <img id="imgOne" class="img-static-one" src="./assets/brasil 2.svg" alt="icon">
+                <img id="imgTwo" class="img-static-two" src="./assets/estados-unidos (1) 1.svg" alt="icon">
+            </main>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
